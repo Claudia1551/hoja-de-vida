@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 32px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 48px;
+}
+
+.header > div {
+    flex: 1;
+}
+
+.divisor {
+    margin-bottom: 12px;
+}
+
+.profile-image {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 8px;
+}
+
+.subtitulo {
+    font-size: 16px;
+    color: #666;
+
+}
+
+.ubicacion {
+    color: #666;
+    font-size: 15px;
+    margin-bottom: 16px;
+}
+
+.contacto-iconos {
+    display: flex;
+    gap: 16px;
+    margin-top: 7px;
+}
+
+.contacto-iconos a {
+    text-decoration: none;
+    border-width: 1px;
+    border-radius: 5px;
+    border-style: solid;
+    padding: 4px 6px;
+    color: #777;
+    border-color: #eee;
+}
+
+section {
+    margin-bottom: 42px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+.experiencia-cuadro {
+    margin-bottom: 2rem;
+}
+
+.experiencia-uno {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.experiencia-titutlo {
+    font-weight: bold;
+}
+
+.experiencia-fechas {
+    color: #666;
+}
+
+.experiencia-logro {
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.proyecto {
+    border: 1px solid #eee;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.project-title {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.project-stats {
+    display: flex;
+    gap: 16px;
+    margin-top: 16px;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.habilidades {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 16px;
+}
+
+.habilidad {
+    background: #f5f5f5;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-align: center;
+    font-family: monospace;
+}
